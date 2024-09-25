@@ -20,14 +20,14 @@ void bubbleSort(int arr[],int n)
  }
  int main(){
  	int n;
- 	printf("ÇëÊäÈëÒªÅÅĞòµÄÊıµÄ¸öÊı:");
+ 	printf("è¯·è¾“å…¥è¦æ’åºçš„æ•°çš„ä¸ªæ•°:");
  	scanf("%d",&n);
  	int arr[n];
- 	printf("ÇëÊäÈë%d¸öÕıÕûÊı:",n);
+ 	printf("è¯·è¾“å…¥%dä¸ªæ­£æ•´æ•°:",n);
  	for(int i=0;i<n;i++)
  	scanf("%d",&arr[i]);
  	bubbleSort(arr,n);
- 	printf("´ÓĞ¡µ½´óÅÅĞòµÄ½á¹û:");
+ 	printf("ä»å°åˆ°å¤§æ’åºçš„ç»“æœ:");
  	printArray(arr,n);
  	
  	return 0;
